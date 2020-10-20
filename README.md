@@ -1,3 +1,15 @@
+language: it
+tags:
+- DISTILbert
+- Italian
+license: MIT
+widget:
+- text: "Vado al [MASK] a fare la spesa"
+- text: "Vado al parco a guardare le [MASK]"
+- text: "Il cielo è [MASK] di stelle."
+---
+
+
 # BERTino: an Italian DistilBERT model
 This repository hosts BERTino, an Italian DistilBERT model pre-trained by
 [indigo.ai](https://indigo.ai/en/)
@@ -48,9 +60,3 @@ fine-tuned in the same tasks and for the same number of epochs.
 
 ### Model
 You can download the model [here](https://drive.google.com/drive/folders/1RqgeWCkbX6w5ffYnlHGsLSX-R4QRYaYE?usp=sharing).
-
-language: italian
-widget:
-- text: "Vado al [MASK] a fare la spesa"
-- text: "Vado al parco a guardare le [MASK]"
-- text: "Il cielo è [MASK] di stelle."
