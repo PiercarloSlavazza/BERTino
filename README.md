@@ -17,25 +17,30 @@ To validate the pre-training that we conducted, we evaluated BERTino on the
 and multi-class sentence classification tasks. We report for comparison results
 obtained by the [teacher model](https://huggingface.co/dbmdz/bert-base-italian-xxl-uncased)
 fine-tuned in the same tasks and for the same number of epochs.
+
 **Italian ISDT:**
 | Model        | F1 score | Fine-tuning time | Evaluation time |
 |--------------|----------|------------------|-----------------|
 | BERTino      | 0,9801   | 9m, 4s           | 3s              |
 | Teacher      | 0,983    | 16m, 28s         | 5s              |
+
 **Italian ParTUT:**
 | Model        | F1 score | Fine-tuning time | Evaluation time |
 |--------------|----------|------------------|-----------------|
 | BERTino      | 0,9268   | 1m, 18s           | 1s             |
 | Teacher      | 0,9688    | 2m, 18s         | 1s              |
+
 **Italian WikiNER:**
 | Model        | F1 score | Fine-tuning time | Evaluation time |
 |--------------|----------|------------------|-----------------|
 | BERTino      | 0,9038  | 35m, 35s           | 3m, 1s             |
 | Teacher      | 0,9178    | 67m, 8s         | 5m, 16s              |
+
 **Multi-class sentence classification:**
 | Model        | F1 score | Fine-tuning time | Evaluation time |
 |--------------|----------|------------------|-----------------|
 | BERTino      | 0,7788   | 4m, 40s           | 6s             |
 | Teacher      | 0,7986    | 8m, 52s         | 9s              |
+
 ### Model
 You can download the model [here](https://drive.google.com/drive/folders/1RqgeWCkbX6w5ffYnlHGsLSX-R4QRYaYE?usp=sharing).
