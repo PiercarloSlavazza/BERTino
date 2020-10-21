@@ -59,5 +59,4 @@ fine-tuned in the same tasks and for the same number of epochs.
 | BERTino      | 0,7788   | 4m, 40s           | 6s             |
 | Teacher      | 0,7986    | 8m, 52s         | 9s              |
 
-### Model
-You can download the model [here](https://drive.google.com/drive/folders/1RqgeWCkbX6w5ffYnlHGsLSX-R4QRYaYE?usp=sharing).
+
