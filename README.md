@@ -3,11 +3,11 @@ language: it
 tags:
 - DISTILbert
 - Italian
-license: MIT
+license: mit
 widget:
-- text: "Vado al [MASK] a fare la spesa"
-- text: "Vado al parco a guardare le [MASK]"
-- text: "Il cielo è [MASK] di stelle."
+- text: Vado al [MASK] a fare la spesa
+- text: Vado al parco a guardare le [MASK]
+- text: Il cielo è [MASK] di stelle.
 ---
 
 
